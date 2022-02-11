@@ -1,0 +1,35 @@
+.inputMainContent{
+display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inputContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.inputContent div:not(:nth-of-type(2n)){
+    margin-right: 1rem;
+}
+.inputContent div:nth-of-type(1),.inputContent div:nth-of-type(2){
+    margin-bottom: 1rem;
+}
+.buttonContent{
+ align-self: center;
+    margin-top: 2em;
+}
+.buttonContent button{
+    background-color: rgba(255, 26, 114, 0.76) ;
+    border-color: transparent;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: #eeeae2;
+}
+.buttonContent button:active{
+    margin-top: 0.1rem;
+    opacity: 0.9;
+}
+
